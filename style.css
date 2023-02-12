@@ -1,0 +1,39 @@
+body {
+    background-image: url("dce9cod-2e02f37b-ed43-44e8-89ac-f8d7f3552d13.gif");
+    background-size: cover;
+    animation: chuva 10s linear infinite;
+    text-align: center;
+  }
+  
+  @keyframes chuva {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(0%);
+    }
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(220, 96, 234);
+    margin: 10px;
+  }
+  
+  .btn img {
+    width: 30px;
+    height: 30px;
+  }
+  
